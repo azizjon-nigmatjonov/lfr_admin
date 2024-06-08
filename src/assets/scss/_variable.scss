@@ -1,0 +1,117 @@
+// colors please use this crazy colors
+$base-color: #5fc7d1;
+$base-color-black: #141839;
+.mainBackgroundColor {
+  background-color: #5fc7d1 !important;
+}
+
+.mainBackgroundColorBlue {
+  background-color: #2597DE !important;
+}
+
+.mainBackgroundColorYellow {
+  background-color: #eac544 !important;
+}
+
+.blue-text {
+  color: #2597DE !important;
+}
+
+.link {
+  color: #2597DE;
+  border-bottom: 1px solid #2597DE;
+}
+
+.orange-text {
+  @apply text-[#eac544]
+}
+
+.mainBackgroundColorRed {
+  background-color: #e03333 !important;
+}
+
+.danger-text {
+  @apply text-[#e03333]
+}
+
+.danger-border {
+  border-color: #e03333;
+}
+
+.mainBackgroundColorBlack {
+  background-color: #141839 !important;
+}
+
+.mainColorText {
+  @apply text-[#5FC7D1];
+}
+
+.main-color-black {
+  @apply text-[#141839];
+
+  &:hover {
+    color: #141839;
+  }
+}
+
+.dark{
+  .main-color-black {
+    
+    &:hover {
+      color: #FFFFFF;
+    }
+  }
+}
+
+.green-color {
+  @apply text-[#34B968];
+}
+
+.green-background {
+  @apply bg-[#34B968];
+}
+
+.disabled-background {
+  @apply bg-[#dddddd]
+}
+
+.disabled-text {
+  @apply text-[#778]
+}
+
+.blue-color {
+  @apply text-[#5897fb];
+}   
+
+.warn-color {
+  @apply text-[#E54D43];
+}
+
+.mainBorderColor {
+  @apply border-[#5FC7D1];
+}
+
+.borderBox {
+  @apply border-[#F2F5FA];
+}
+// colors end
+
+.wrapper {
+  @apply px-[30px];
+}
+
+.sectionTitle {
+  @apply text-2xl font-[600] text-[#141839];
+}
+.dark {
+  .sectionTitle {
+    @apply text-white
+  }
+  .warn-color {
+    @apply text-[#E54D43];
+  }
+}
+
+.basicBtn {
+  @apply py-[15px] px-[24px] rounded-[12px] inline-flex;
+}

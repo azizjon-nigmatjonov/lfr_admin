@@ -1,0 +1,457 @@
+.dark {
+  input:disabled {
+    color: #fff !important;
+  }
+  input:read-only {
+    color: #fff !important;
+    background-color: #011e3c !important;
+  }
+  .sidebarLinks {
+    li {
+      .uk-nav-default {
+        .uk-parent {
+          .uk-nav-sub {
+            a {
+              color: #696F7A;
+            }
+          }
+        }
+      }
+      a {
+        color: #696F7A;
+      }
+    }
+  }
+  .a-table-title {
+    color: #696F7A;
+  }
+  .dp__arrow_top {
+    display: none;
+  }
+  .dp__input_icon {
+    fill: #696F7A;
+  }
+  .dp__clear_icon {
+    fill: white !important;
+  }
+  .dp__month_year_select {
+    &:hover {
+      background-color: #11111177;
+      color: white;
+    }
+  }
+  .p__arrow_top {
+    display: none !important;
+  }
+  .dp-custom-menu {
+    border: 1.5px solid #132f4c !important;
+    background-color: #011e3c !important;
+  }
+  .dp__button {
+     background-color: #011e3c;
+     &:hover {
+      background-color: transparent;
+     }
+  }
+  .dp__action_row {
+    background-color: #011e3c;
+  }
+  .dp__month_year_row {
+    color: white;
+  }
+  .dp__calendar_header {
+    color: #696F7A;
+  }
+  .dp__cell_inner {
+    &:hover {
+      background-color: #1876d1;
+    }
+    color: #eee !important;
+  }
+  .dp-custom-calendar {
+    color: white !important;
+  }
+  .dp__selection_preview {
+    color: transparent;
+  }
+  .dp__button {
+    svg {
+      fill: white;
+    }
+  }
+  .dp__overlay {
+    background-color: #0b1929 !important;
+    color: #fff;
+  }
+  .dp__overlay_cell {
+    &:hover {
+      color: white;
+      background-color: #11111199;
+    }
+  }
+}
+
+.p__arrow_top {
+  background-color: red !important;
+  display: none !important;
+}
+
+input {
+  &.light {
+    color: $base-color-black;
+  }
+  &.dark {
+    color: white;
+  }
+  &.placeholder::placeholder {
+    color: #696F7A !important;
+  }
+}
+
+input:disabled {
+  color: #141839 !important;
+  cursor: no-drop;
+}
+input:read-only {
+  color: #141839 !important;
+  // cursor: no-drop;
+  background-color: #F2F5FA;
+}
+
+.scroll-none {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: 0px; /* Firefox */
+  &::-webkit-scrollbar {
+      display: none;
+  }
+}
+
+.a-table {
+  &.scroll {
+    overflow: auto;
+  }
+  .a-table-list {
+    padding: 16px 0 14px 0;
+    .a-table-text {
+      padding: 0 14px 0 0;
+    }
+  }
+}
+
+.a-table-title {
+  color: #888a8f;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.a-table-text {
+  &.dark {
+    color: #fff;
+  }
+  color: $base-color-black;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.datepicker {
+  &::placeholder {
+    color: #9298a0 !important;
+  }
+  &.dark {
+    border: 1.5px solid #1a283a;
+    color: white;
+    background-color: #0b1929;
+
+    &:hover {
+      border-color: #1a283a !important;
+    }
+  }
+  &.light {
+    color: #141839;
+    border: 1.5px solid #F2F5FA !important;
+  }
+  &:hover {
+    outline: none !important;
+  }
+}
+
+.basicTab {
+  @apply inline-flex items-center space-x-[24px];
+}
+.basicTab {
+  height: 100%;
+  
+  li {
+    color: #888a8f;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    &.active {
+      color: $base-color;
+      font-weight: 600;
+      position: relative;
+
+      &::after {
+        content: "";
+        height: 2px;
+        background-color: $base-color;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        animation: animWidth 0.3s ease forwards;
+      }
+    }
+    cursor: pointer;
+  }
+
+  @keyframes animWidth {
+    0% {
+      width: 50%;
+    }
+    100% {
+      width: 100%
+    }
+  }
+}
+.dark {
+  .basicTab {
+    li {
+      &.active {
+        color: #2597DE !important;
+    
+        &::after {
+          background-color: #2597DE !important;
+        }
+      }
+    }
+  }
+}
+
+.admins-section {
+  .table {
+    width: 100%;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+      li {
+        h3 {
+          color: #888a8f;
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: 0.4px;
+        }
+        h3.link {
+          color: #39c4e6;
+          border-bottom: 1px solid #39c4e6;
+          display: inline-block;
+          cursor: pointer;
+        }
+        // border: 1px solid red;
+      }
+    }
+    &__header,
+    &__body {
+      .table-1 {
+        ul {
+          li {
+            width: 200px;
+            &:nth-child(1) {
+              width: 300px;
+            }
+          }
+        }
+      }
+
+      .table-2 {
+        ul {
+          li {
+            width: 250px;
+            &:nth-child(1) {
+              width: 300px;
+            }
+            &:last-child {
+              width: 100px;
+            }
+          }
+        }
+      }
+    }
+    &__body {
+      ul {
+        li {
+          h3 {
+            color: $base-color-black;
+            font-weight: 500;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// responsive
+@media (max-width: 1440px) {
+  .admins-section {
+    .table {
+      &__header,
+      &__body {
+        .table-1 {
+          ul {
+            li {
+              width: 150px;
+              &:nth-child(1) {
+                width: 300px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.sailing-section {
+    .a-select {
+        .uk-form-custom {
+            border: 1px solid #888A8F;
+            padding: 14px 24px;
+            border-radius: 40px;
+            min-width: 160px;
+            display: flex;
+            justify-content: center;
+
+            // svg {
+            //     display: none;
+            // }
+        }
+        button {
+            color: $base-color-black;
+            font-weight: 600;
+        }
+    }
+}
+
+.dark {
+  .Pagination {
+    .Page {
+      border-color: #696F7A;
+      color: #696F7A;
+    }
+    .Page-active {
+      color: #fff;
+    }
+    .PaginationControl {
+      border-color: #696F7A;
+      .Control-active {
+        fill: #fff !important;
+      }
+      .Control {
+        fill: #696F7A;
+      }
+    }
+  }
+}
+.Pagination {
+  .Page {
+    border: 1.5px solid #F2F5FA;
+    width: 25px;
+    height: 25px;
+    border-radius: 0 !important;
+    font-size: 16px;
+  }
+  li {
+    margin: 0 1px;
+  }
+  .Page-active {
+    font-weight: 500;
+    font-size: 18px;
+    border: 1.5px solid #39c4e6 ;
+    background-color: transparent !important;
+  }
+  .PaginationControl {
+    border: 1.5px solid #F2F5FA;
+    width: 25px;
+    height: 25px;
+    svg {
+      width: 25px !important;
+      height: 25px !important;
+    }
+  }
+}
+
+
+
+
+
+
+// Vue datepicker
+.dp__main {
+  input {
+    border-radius: 12px;
+    height: 56px;
+
+    &::-webkit-input-placeholder {
+      font-family: "Inter", sans-serif;
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      font-weight: 400;
+      color: #141839;
+    }
+  }
+}
+
+.dp__input_icon_pad {
+  padding-left: 48px !important;
+}
+
+.dp__input:hover {
+  border-color: rgb(242 245 250);;
+}
+
+.dp__input_wrap svg{
+  padding-left: 15px;
+  width: 24px;
+  height: 24px;
+  fill: #696F7A;
+}
+
+
+
+
+
+
+.vs__dropdown-toggle{
+  border: none !important;
+}
+
+
+
+// order page
+// @media (max-width: 1280px) {
+//   .order-page {
+//     .a-table {
+//       .a-table-list {
+//         li:nth-child(1) {
+//           min-width: 180px;
+//           max-width: 180px;
+//         }
+//         li:nth-child(2) {
+//           min-width: 180px;
+//           max-width: 180px;
+//         }
+//         li:nth-child(6) {
+//           min-width: 160px;
+//           max-width: 160px;
+//         }
+//         li:nth-child(7) {
+//           min-width: 100px;
+//           max-width: 100px;
+//         }
+//       }
+//     }
+//   }
+// }

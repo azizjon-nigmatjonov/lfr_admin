@@ -1,0 +1,57 @@
+[33ma50d87a[m[33m ([m[1;36mHEAD -> [m[1;32mfrontend/developer024[m[33m, [m[1;31morigin/frontend/developer024[m[33m)[m HEAD@{0}: commit: Changes
+[33mf63e5cb[m HEAD@{1}: commit: Changes in almost all pages
+[33m458b279[m[33m ([m[1;31morigin/muhammadaziz[m[33m)[m HEAD@{2}: commit: Changes
+[33m3563869[m HEAD@{3}: commit: Permissions updated
+[33m278ea4e[m HEAD@{4}: commit: Change
+[33mf12d098[m HEAD@{5}: commit: Changes
+[33m95dbee5[m HEAD@{6}: commit (merge): Change
+[33m36de3fd[m HEAD@{7}: commit (merge): Changes
+[33ma795e3d[m HEAD@{8}: commit: Changes
+[33maa21e70[m HEAD@{9}: commit: Changes
+[33m5f04800[m HEAD@{10}: pull origin muhammadaziz: Merge made by the 'recursive' strategy.
+[33m8552659[m HEAD@{11}: commit: Changes
+[33m023276f[m HEAD@{12}: commit: Changes
+[33m100b642[m HEAD@{13}: commit: Changes
+[33md89fe8a[m HEAD@{14}: pull origin frontend/developer024: Merge made by the 'recursive' strategy.
+[33m5a94581[m HEAD@{15}: commit: Changes
+[33m3fe7b06[m HEAD@{16}: commit (merge): Change
+[33md137a8e[m HEAD@{17}: commit: Code refactoring
+[33m4575ba2[m HEAD@{18}: commit (merge): Change
+[33m0c6fdc5[m HEAD@{19}: commit: Changes
+[33m0c57dcb[m HEAD@{20}: pull origin frontend/developer024: Merge made by the 'recursive' strategy.
+[33m1d2d087[m HEAD@{21}: commit (merge): Changes in permissions page
+[33me1dc96a[m HEAD@{22}: commit: Changes
+[33m774a562[m HEAD@{23}: reset: moving to HEAD
+[33m774a562[m HEAD@{24}: pull origin frontend/developer024: Fast-forward
+[33mc0c93d5[m HEAD@{25}: reset: moving to HEAD
+[33mc0c93d5[m HEAD@{26}: pull origin frontend/developer024: Fast-forward
+[33m3751794[m HEAD@{27}: commit: Change
+[33m1ad343d[m[33m ([m[1;32mmain[m[33m)[m HEAD@{28}: checkout: moving from main to frontend/developer024
+[33m1ad343d[m[33m ([m[1;32mmain[m[33m)[m HEAD@{29}: commit: Changes
+[33me903d11[m HEAD@{30}: commit: Change
+[33me3c4980[m HEAD@{31}: commit: Change
+[33m590540d[m HEAD@{32}: commit: Change
+[33m384b737[m HEAD@{33}: commit: Change
+[33md097d18[m HEAD@{34}: commit: Change
+[33m42c139a[m HEAD@{35}: commit: Change
+[33mea267f0[m HEAD@{36}: commit: Change
+[33m1052d37[m HEAD@{37}: commit: Change
+[33m8f48ed9[m HEAD@{38}: commit: changes
+[33m52f5c64[m HEAD@{39}: commit: Big changes shukr
+[33m0935b45[m HEAD@{40}: commit: Change
+[33m59bcca3[m HEAD@{41}: commit: login page hide
+[33m376984e[m HEAD@{42}: commit: Change
+[33mff113bf[m HEAD@{43}: commit: Output file path changed
+[33me4e8e5c[m HEAD@{44}: commit: Small change
+[33m279357d[m HEAD@{45}: commit: i18n added to the project
+[33ma5137fd[m HEAD@{46}: pull origin main: Fast-forward
+[33m50ac83b[m HEAD@{47}: pull: Fast-forward
+[33m1bea855[m HEAD@{48}: pull: Fast-forward
+[33m44b2c6f[m HEAD@{49}: pull: Fast-forward
+[33ma3f2ddd[m HEAD@{50}: pull origin main: Fast-forward
+[33m6816673[m HEAD@{51}: commit: Pages added. Sidebar updated. Header updated. And other changes.
+[33m5fd0091[m HEAD@{52}: pull origin main: Fast-forward
+[33mf719af8[m HEAD@{53}: pull origin main: Fast-forward
+[33mbc054a4[m HEAD@{54}: pull origin main: Fast-forward
+[33m10699a8[m HEAD@{55}: Branch: renamed refs/heads/master to refs/heads/main
+[33m10699a8[m HEAD@{57}: commit (initial): first commit
